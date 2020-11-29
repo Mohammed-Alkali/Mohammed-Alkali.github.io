@@ -1,0 +1,274 @@
+html {
+	--primary-color: #03a9f4;
+	--font-color: #747a87;
+	--footer-color: #333;
+
+	--green: #3fc7b0;
+	--orange: #f67a68;
+	--blue: #339bc2;
+	--red: #c83f43;
+	--purple: #a96eb7;
+	--brown: #be8864;
+}
+
+body {
+	margin: 0;
+	font-family: 'Agency FB';
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	margin: 0 20px;
+}
+
+nav a:hover {
+	color: var(--primary-color);
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+}
+
+/*
+Positioning
+Flexbox
+*/
+
+/*
+Displays:
+* inline
+* block
+*/
+
+h1 {
+	color: white;
+}
+
+/*
+COLORS
+* Hexadecimal code #000000 = #000
+* RGB - Red Green Blue rgb(0, 0, 0)
+* HSL - Hue Saturation Lightness hsl()
+* RGBA
+* HSLA
+*/
+
+.section1 {
+	text-align: center;
+	padding: 240px 0;
+	background-image: url("../html/slider/slider.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.section1 p {
+	color: white;
+	text-transform: uppercase;
+	font-size: large;
+}
+
+.section1 a {
+	background-color: var(--primary-color);
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: inline-block;
+	border-radius: 999px;
+	font-size: large;
+    font-size: 45px;
+    font-size: 80%;
+}
+.section1 h1{
+	font-size: large;
+    font-size: 255px;
+    font-size: 400%;
+}
+.section2{
+	text-align: center;
+	padding: 240px 0;
+	background-image: url("../html/tech.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+h2 {
+	color: white;
+	text-align: center;
+	font-size: large;
+    font-size: 315px;
+    font-size: 400%;
+}
+
+.section2 img {
+	width: 500px;
+}
+
+.section2 p {
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.section2 ul {
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 60px;
+	color: white;
+	padding: 0 60px;
+}
+
+.section2 li {
+	padding: 30px;
+}
+
+.section2 li h3 {
+	font-size: 42px;
+}
+
+.bg-green {
+	background-color: var(--green);
+}
+.bg-orange{
+	background-color: var(--orange); 
+}
+.bg-blue{
+	background-color: var(--blue);
+}
+.bg-red{
+	background-color: var(--red);
+}
+.bg-purple{
+	background-color: var(--purple);
+}
+.bg-brown{
+	background-color: var(--brown);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.section3 {
+	text-align: center;
+}
+
+.section3 a {
+	display: block;
+	background-color: white;
+	padding: 10px;
+	width: fit-content;
+	margin: 10px auto;
+}
+.section3 img{
+	max-width: 200%
+	
+}
+.section3 a {
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	padding: 10px 30px;
+	border-radius: 999px;
+	font-size: large;
+    font-size: 105px;
+    font-size: 120%;
+}
+.section3{
+	text-align: center;
+	padding: 240px 0;
+	background-image: url("../html/apps.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.section3 p{
+    color: white;
+    font-size: large;
+    font-size: 75px;
+    font-size: 90%;
+}
+.section4 {
+	text-align: center;
+}
+
+.section4 img {
+	width: 20%;
+}
+
+.slider img {
+	width: 30%
+}
+.section4 a{
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+	border-radius: 999px;
+	display: inline-block;
+	margin: 10px auto; 
+}
+
+.section5 {
+	text-align: center;
+}
+.section5 a{
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	padding: 10px 30px;
+	border-radius: 999px;
+	font-size: large;
+    font-size: 15px;
+    font-size: 50%;
+}
+.section5{
+	text-align: center;
+	padding: 240px 0;
+	background-image: url("../html/contact.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.section5 img{
+    width: 500px;
+}
+.section5{
+	font-size: large;
+    font-size: 115px;
+    font-size: 250%;
+}
+.section5 p{
+    font-size: large;
+    font-size: 25px;
+    font-size: 60%;
+    color: white;
+}
+.footer{
+	box-sizing: border-box; /* This makes sure the padding is counted in the width */
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: var(--footer-color);
+	color: white; 
+	display: flex;
+	justify-content: space-between;
+	padding: 0 50px;
+}
+
+.footer a {
+	display: inline-block;
+	background-color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 999px;
+}

@@ -1,0 +1,114 @@
+html {
+	--primary-color: #03a9f4;
+	--font-color: #747a87;
+	--footer-color: #333;
+
+	--green: #3fc7b0;
+	--orange: #f67a68;
+	--blue: #339bc2;
+	--red: #c83f43;
+	--purple: #a96eb7;
+	--brown: #be8864;
+}
+
+body {
+	margin: 0;
+	font-family: 'Agency FB';
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	margin: 0 20px;
+}
+
+nav a:hover {
+	color: var(--primary-color);
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+}
+h1{
+	color: white;
+}
+.section1{
+	text-align: center;
+	padding: 240px 0;
+	background-image: url("../html/tech.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.section1 p {
+	color: white;
+	text-transform: uppercase;
+}
+.section2{
+	text-align: center;
+	padding: 240px 0;
+	background-image: url("../html/contact.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+h2 {
+	color: white;
+	text-align: center;
+	font-size: large;
+    font-size: 115px;
+    font-size: 250%;
+}
+
+.section2 img {
+	width: 500px;
+}
+
+.section2 p {
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+}
+.section2 ul {
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 60px;
+	color: white;
+	padding: 0 60px;
+}
+.section2 a{
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	padding: 10px 13px;
+	border-radius: 1200px;
+	color: blue
+}
+.footer{
+	box-sizing: border-box; /* This makes sure the padding is counted in the width */
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: var(--footer-color);
+	color: white; 
+	display: flex;
+	justify-content: space-between;
+	padding: 0 50px;
+}
+
+.footer a {
+	display: inline-block;
+	background-color: white;
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 999px;
+}

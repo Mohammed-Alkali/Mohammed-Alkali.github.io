@@ -1,0 +1,64 @@
+html {
+  --primary-color: #03a9f4;
+  --font-color: #747a87;
+  --footer-color: #333;
+
+  --green: #3fc7b0;
+  --orange: #f67a68;
+  --blue: #339bc2;
+  --red: #c83f43;
+  --purple: #a96eb7;
+  --brown: #be8864;
+}
+
+body {
+  margin: 0;
+  font-family: 'Agency FB';
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  margin: 0 20px;
+}
+
+nav a:hover {
+  color: var(--primary-color);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: gray;
+  }
+  .section1{
+    text-align: left;
+    color: gray;
+    background-color: white;
+  }
+  .footer{
+  box-sizing: border-box; /* This makes sure the padding is counted in the width */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--footer-color);
+  color: white; 
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.footer a {
+  display: inline-block;
+  background-color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 999px;
+}
